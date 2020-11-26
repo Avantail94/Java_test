@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Gugudan {
 
 	public static void main(String[] args) {
-		// 2´Ü
-		System.out.println("±¸±¸´Ü Áß Ãâ·ÂÇÒ ´ÜÀº? : ");
+		// 2ï¿½ï¿½
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½? : ");
 		Scanner scanner = new Scanner(System.in);
 		int number = scanner.nextInt();
 		
@@ -13,12 +13,13 @@ public class Gugudan {
 			
 			System.out.println( );
 			System.out.println( );
-			System.out.println( i + "´Ü");
+			System.out.println( i + "ï¿½ï¿½");
 			System.out.println( );
 			for(int j = 1; j< 10; j++) {
 				
 				int result = i * j;
 				System.out.println(i + " * " + j + " = " + result);
+				
 			}
 		}
 	}
