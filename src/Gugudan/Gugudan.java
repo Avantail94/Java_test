@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Gugudan {
 
 	public static void main(String[] args) {
-		// 2��
-		System.out.println("������ �� ����� ����? : ");
+		// 2단
+		System.out.println("구구단 1부터 몇단까지 출력? : ");
 		Scanner scanner = new Scanner(System.in);
 		int number = scanner.nextInt();
 		
@@ -13,7 +13,7 @@ public class Gugudan {
 			
 			System.out.println( );
 			System.out.println( );
-			System.out.println( i + "��");
+			System.out.println( i + "단");
 			System.out.println( );
 			for(int j = 1; j< 10; j++) {
 				
